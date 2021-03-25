@@ -1,0 +1,25 @@
+---
+- name: Play to do the operation on shell file
+  hosts: linux
+  become: yes
+  gather_facts: False
+  tasks:
+    - name: Create the directory /opt/Jboss
+      file:
+        path: /opt/Jboss
+        state: directory
+    - name: Create the file Jboss.sh in directory /opt/Jboss
+      file:
+        path: "/opt/Jboss/Jboss.sh"
+        state: touch
+    - name: Copy the content from local file to Jboss.sh
+      copy:
+        dest: /opt/Jboss/Jboss.sh
+        src: /home/ansible/myshell.txt
+    - name: change the permission of Jboss.sh
+      file:
+        owner: ansible
+        path: /opt/Jboss
+        mode: 0777
+        state: directory
+        recurse: yes

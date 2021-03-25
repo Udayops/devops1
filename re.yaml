@@ -1,0 +1,11 @@
+---
+- name: using register
+  hosts: centos1
+  tasks:
+    - name: execute cmd to store in var
+      command: hostname -f
+      register: command_output
+    - name: display output of prev tassks
+      debug:
+        msg: "{{command_output.stdout}}"
+

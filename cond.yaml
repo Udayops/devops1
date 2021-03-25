@@ -1,0 +1,14 @@
+---
+- name: condition demo
+  hosts: linux
+  vars:
+    linux: Ubuntu
+  tasks:
+    - name: Get the OS Flavour
+      shell: cat /etc/os-release | head -1 | awk -F'=' '{print $2}' | cut -d'"' -f2
+      register: os_flavour
+    - name: Get the host name of server if condition met
+      command: hostname -f
+      #      when: ( ansible_distribution == "CentOS" and ansible_distribution_major_version == "8" ) or 
+      #     (ansible_distribution == "Ubuntu" and ansible_distribution_major_version == "20")
+      when: linux == os_flavour.stdout

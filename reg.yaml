@@ -1,0 +1,10 @@
+---
+- name: using register
+  hosts: centos1
+  tasks:
+    - name: execute command and store it in variable
+      command: hostname -f
+      register: command_output
+    - name: display the output of previous task
+      debug:
+        msg: "{{ command_output.stdout }}"

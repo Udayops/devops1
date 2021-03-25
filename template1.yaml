@@ -1,0 +1,11 @@
+---
+- name: Jinja2 template session
+  hosts: linux
+  become: yes
+  vars:
+    ssh_port: 22
+  tasks:
+    - name: copy template with J2
+      template:
+        src: motd.j2
+        dest: /etc/motd

@@ -1,0 +1,12 @@
+{% if ansible_distribution == "CentOS" -%}
+Welcome to host centos of {{ ansible_nodename }}
+{% else %}
+Welcome to host ubuntu of {{ ansible_nodename }}
+{% endif %}
+
+
+{% set list_server = ['ubuntu', 'centos'] %}
+
+{% for server in list_server %}
+   {{ server }}
+{% endfor %}

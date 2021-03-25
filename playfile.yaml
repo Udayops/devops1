@@ -1,0 +1,26 @@
+---
+- name: Play to copy the content of the file
+  hosts: linux
+  become: yes
+  gather_facts: False
+  tasks:
+    - name: Create the directory /etc/modd
+      file:
+        path: /etc/modd
+        state: directory
+    - name: Create the file myfile.txt in directory /etc/modd
+      file:
+        path: "/etc/modd/myfile.txt"
+        state: touch
+    - name: Write the content into the file(myfile.txt)
+      copy:
+        dest: /etc/modd/myfile.txt
+        content: |
+          this is my file
+          and it worked
+    - name: Copy the content from other file to myfile.txt
+      copy:
+        dest: /etc/modd/myfile.txt
+        src: /home/ansible/myfile1.txt
+
+               

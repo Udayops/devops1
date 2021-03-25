@@ -1,0 +1,34 @@
+---
+- name: Variable session
+  hosts: centos
+  vars:
+    inst_name: Beasnt
+    course_name: Devops
+    student_list:
+      - Akhil
+      - aditya
+      - sush
+      - Uday
+  vars_files:
+    - varfile.yaml
+  vars_prompt:
+    - name: user_name
+      private: False
+    - name: password
+      private: True
+  tasks:
+    - name: display my variable
+      debug:
+        msg: Institute name is "{{inst_name}}" and the course_name is "{{course_name}}", available students are {{student_list}}
+    - name: display my varfile
+      debug:
+        msg: "{ {course_list }}" 
+    - name: display my var_prompt
+      debug:
+        msg: my user name is {{ user_name }} and {{ password }} 
+    - name: Display host and group variable
+      debug:
+        msg: group var and remote var is {{ hostvars[ansible_nodename].ansible_user }}
+    - name: variable from command line
+      debug:
+        msg: my commandline variable is {{ com_var }}  

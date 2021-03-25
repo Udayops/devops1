@@ -1,0 +1,10 @@
+---
+- name: Modules play
+  #HOSTS
+  hosts: centos1
+  gather_facts: False
+  tasks:
+    - name: Check availibility of Targets
+      ping:
+    - name: Install git on targets
+      yum:

@@ -1,0 +1,15 @@
+---
+- name: Install Webserver Apache on UBUNTU and change the Index File
+  hosts: ubuntu
+  become: true
+  gather_facts: False
+  tasks:
+    - name: install the webserver Apache
+      apt:
+        name: apache2
+        state: latest
+        update_cache: yes
+    - name: copy the index page
+      template:
+        src: "/home/ansible/myfile/index.html"
+        dest: "/var/www/html/index.html"

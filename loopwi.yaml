@@ -1,0 +1,17 @@
+---
+- name: example wit items
+  hosts: linux
+  become: yes
+  vars:
+    pass1: password
+  gather_facts: true
+  tasks:
+    - name: create user
+      user: 
+        name: "{{ item }}"
+        password: "{{ pass1 | password_hash('sha512') }}"
+        state: present
+      with_items:
+        - uday
+        - akhil
+        - aditya
