@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq
+|2,0,1616825095,,"wq"
 :q
 |2,0,1616696273,,"q"
-:wq
-|2,0,1616609077,,"wq"
 :Wq
 |2,0,1616216504,,"Wq"
 :qw
@@ -40,34 +40,132 @@
 |3,1,36,0,1,0,1615029697,"t"
 
 # File marks:
-'0  1  0  ~/cond.yaml
-|4,48,1,0,1616696273,"~/cond.yaml"
-'1  11  22  ~/template1.yaml
-|4,49,11,22,1616609077,"~/template1.yaml"
-'2  1  7  ~/vaultpass.txt
-|4,50,1,7,1616608991,"~/vaultpass.txt"
-'3  10  41  ~/reg.yaml
-|4,51,10,41,1616608881,"~/reg.yaml"
-'4  12  10  ~/motd.j2
-|4,52,12,10,1616608780,"~/motd.j2"
-'5  1  0  ~/with_file.yaml
-|4,53,1,0,1616263829,"~/with_file.yaml"
-'6  27  15  ~/with_file.yaml
-|4,54,27,15,1616263660,"~/with_file.yaml"
-'7  27  15  ~/with_file.yaml
-|4,55,27,15,1616263660,"~/with_file.yaml"
-'8  27  13  ~/with_file.yaml
-|4,56,27,13,1616263609,"~/with_file.yaml"
-'9  27  13  ~/with_file.yaml
-|4,57,27,13,1616263609,"~/with_file.yaml"
+'0  9  29  ~/main.yaml
+|4,48,9,29,1616825095,"~/main.yaml"
+'1  11  39  ~/task2.yaml
+|4,49,11,39,1616825059,"~/task2.yaml"
+'2  19  10  ~/task1.yaml
+|4,50,19,10,1616825025,"~/task1.yaml"
+'3  1  0  ~/cond.yaml
+|4,51,1,0,1616696273,"~/cond.yaml"
+'4  11  22  ~/template1.yaml
+|4,52,11,22,1616609077,"~/template1.yaml"
+'5  1  7  ~/vaultpass.txt
+|4,53,1,7,1616608991,"~/vaultpass.txt"
+'6  10  41  ~/reg.yaml
+|4,54,10,41,1616608881,"~/reg.yaml"
+'7  12  10  ~/motd.j2
+|4,55,12,10,1616608780,"~/motd.j2"
+'8  1  0  ~/with_file.yaml
+|4,56,1,0,1616263829,"~/with_file.yaml"
+'9  27  15  ~/with_file.yaml
+|4,57,27,15,1616263660,"~/with_file.yaml"
 
 # Jumplist (newest first):
+-'  9  29  ~/main.yaml
+|4,39,9,29,1616825095,"~/main.yaml"
+-'  1  0  ~/main.yaml
+|4,39,1,0,1616825068,"~/main.yaml"
+-'  11  39  ~/task2.yaml
+|4,39,11,39,1616825059,"~/task2.yaml"
+-'  11  39  ~/task2.yaml
+|4,39,11,39,1616825059,"~/task2.yaml"
+-'  1  0  ~/task2.yaml
+|4,39,1,0,1616825050,"~/task2.yaml"
+-'  1  0  ~/task2.yaml
+|4,39,1,0,1616825050,"~/task2.yaml"
+-'  19  10  ~/task1.yaml
+|4,39,19,10,1616825025,"~/task1.yaml"
+-'  19  10  ~/task1.yaml
+|4,39,19,10,1616825025,"~/task1.yaml"
+-'  19  10  ~/task1.yaml
+|4,39,19,10,1616825025,"~/task1.yaml"
+-'  19  10  ~/task1.yaml
+|4,39,19,10,1616825025,"~/task1.yaml"
+-'  1  0  ~/task1.yaml
+|4,39,1,0,1616824997,"~/task1.yaml"
+-'  1  0  ~/task1.yaml
+|4,39,1,0,1616824997,"~/task1.yaml"
+-'  1  0  ~/task1.yaml
+|4,39,1,0,1616824997,"~/task1.yaml"
+-'  1  0  ~/task1.yaml
+|4,39,1,0,1616824997,"~/task1.yaml"
+-'  1  0  ~/cond.yaml
+|4,39,1,0,1616696273,"~/cond.yaml"
+-'  1  0  ~/cond.yaml
+|4,39,1,0,1616696273,"~/cond.yaml"
+-'  1  0  ~/cond.yaml
+|4,39,1,0,1616696273,"~/cond.yaml"
+-'  1  0  ~/cond.yaml
+|4,39,1,0,1616696273,"~/cond.yaml"
+-'  1  0  ~/cond.yaml
+|4,39,1,0,1616696273,"~/cond.yaml"
+-'  1  0  ~/cond.yaml
+|4,39,1,0,1616696273,"~/cond.yaml"
+-'  1  0  ~/cond.yaml
+|4,39,1,0,1616696273,"~/cond.yaml"
 -'  1  0  ~/cond.yaml
 |4,39,1,0,1616696273,"~/cond.yaml"
 -'  11  22  ~/template1.yaml
 |4,39,11,22,1616609077,"~/template1.yaml"
 -'  11  22  ~/template1.yaml
 |4,39,11,22,1616609077,"~/template1.yaml"
+-'  11  22  ~/template1.yaml
+|4,39,11,22,1616609077,"~/template1.yaml"
+-'  11  22  ~/template1.yaml
+|4,39,11,22,1616609077,"~/template1.yaml"
+-'  11  22  ~/template1.yaml
+|4,39,11,22,1616609077,"~/template1.yaml"
+-'  11  22  ~/template1.yaml
+|4,39,11,22,1616609077,"~/template1.yaml"
+-'  11  22  ~/template1.yaml
+|4,39,11,22,1616609077,"~/template1.yaml"
+-'  11  22  ~/template1.yaml
+|4,39,11,22,1616609077,"~/template1.yaml"
+-'  11  22  ~/template1.yaml
+|4,39,11,22,1616609077,"~/template1.yaml"
+-'  11  22  ~/template1.yaml
+|4,39,11,22,1616609077,"~/template1.yaml"
+-'  11  22  ~/template1.yaml
+|4,39,11,22,1616609077,"~/template1.yaml"
+-'  11  22  ~/template1.yaml
+|4,39,11,22,1616609077,"~/template1.yaml"
+-'  11  22  ~/template1.yaml
+|4,39,11,22,1616609077,"~/template1.yaml"
+-'  11  22  ~/template1.yaml
+|4,39,11,22,1616609077,"~/template1.yaml"
+-'  11  22  ~/template1.yaml
+|4,39,11,22,1616609077,"~/template1.yaml"
+-'  11  22  ~/template1.yaml
+|4,39,11,22,1616609077,"~/template1.yaml"
+-'  1  0  ~/template1.yaml
+|4,39,1,0,1616609045,"~/template1.yaml"
+-'  1  0  ~/template1.yaml
+|4,39,1,0,1616609045,"~/template1.yaml"
+-'  1  0  ~/template1.yaml
+|4,39,1,0,1616609045,"~/template1.yaml"
+-'  1  0  ~/template1.yaml
+|4,39,1,0,1616609045,"~/template1.yaml"
+-'  1  0  ~/template1.yaml
+|4,39,1,0,1616609045,"~/template1.yaml"
+-'  1  0  ~/template1.yaml
+|4,39,1,0,1616609045,"~/template1.yaml"
+-'  1  0  ~/template1.yaml
+|4,39,1,0,1616609045,"~/template1.yaml"
+-'  1  0  ~/template1.yaml
+|4,39,1,0,1616609045,"~/template1.yaml"
+-'  1  0  ~/template1.yaml
+|4,39,1,0,1616609045,"~/template1.yaml"
+-'  1  0  ~/template1.yaml
+|4,39,1,0,1616609045,"~/template1.yaml"
+-'  1  0  ~/template1.yaml
+|4,39,1,0,1616609045,"~/template1.yaml"
+-'  1  0  ~/template1.yaml
+|4,39,1,0,1616609045,"~/template1.yaml"
+-'  1  0  ~/template1.yaml
+|4,39,1,0,1616609045,"~/template1.yaml"
+-'  1  0  ~/template1.yaml
+|4,39,1,0,1616609045,"~/template1.yaml"
 -'  1  0  ~/template1.yaml
 |4,39,1,0,1616609045,"~/template1.yaml"
 -'  1  0  ~/template1.yaml
@@ -80,6 +178,62 @@
 |4,39,1,7,1616608991,"~/vaultpass.txt"
 -'  1  7  ~/vaultpass.txt
 |4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
+-'  1  7  ~/vaultpass.txt
+|4,39,1,7,1616608991,"~/vaultpass.txt"
 -'  10  41  ~/reg.yaml
 |4,39,10,41,1616608881,"~/reg.yaml"
 -'  10  41  ~/reg.yaml
@@ -96,174 +250,41 @@
 |4,39,10,41,1616608881,"~/reg.yaml"
 -'  10  41  ~/reg.yaml
 |4,39,10,41,1616608881,"~/reg.yaml"
--'  1  0  ~/reg.yaml
-|4,39,1,0,1616608835,"~/reg.yaml"
--'  1  0  ~/reg.yaml
-|4,39,1,0,1616608835,"~/reg.yaml"
--'  1  0  ~/reg.yaml
-|4,39,1,0,1616608835,"~/reg.yaml"
--'  1  0  ~/reg.yaml
-|4,39,1,0,1616608835,"~/reg.yaml"
--'  1  0  ~/reg.yaml
-|4,39,1,0,1616608835,"~/reg.yaml"
--'  1  0  ~/reg.yaml
-|4,39,1,0,1616608835,"~/reg.yaml"
--'  1  0  ~/reg.yaml
-|4,39,1,0,1616608835,"~/reg.yaml"
--'  1  0  ~/reg.yaml
-|4,39,1,0,1616608835,"~/reg.yaml"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  12  10  ~/motd.j2
-|4,39,12,10,1616608780,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/motd.j2
-|4,39,1,0,1616608745,"~/motd.j2"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  1  0  ~/with_file.yaml
-|4,39,1,0,1616263829,"~/with_file.yaml"
--'  27  15  ~/with_file.yaml
-|4,39,27,15,1616263660,"~/with_file.yaml"
--'  27  15  ~/with_file.yaml
-|4,39,27,15,1616263660,"~/with_file.yaml"
--'  27  15  ~/with_file.yaml
-|4,39,27,15,1616263660,"~/with_file.yaml"
--'  27  15  ~/with_file.yaml
-|4,39,27,15,1616263660,"~/with_file.yaml"
--'  27  15  ~/with_file.yaml
-|4,39,27,15,1616263660,"~/with_file.yaml"
--'  27  15  ~/with_file.yaml
-|4,39,27,15,1616263660,"~/with_file.yaml"
--'  27  15  ~/with_file.yaml
-|4,39,27,15,1616263660,"~/with_file.yaml"
--'  27  15  ~/with_file.yaml
-|4,39,27,15,1616263660,"~/with_file.yaml"
--'  27  15  ~/with_file.yaml
-|4,39,27,15,1616263660,"~/with_file.yaml"
--'  27  15  ~/with_file.yaml
-|4,39,27,15,1616263660,"~/with_file.yaml"
--'  27  15  ~/with_file.yaml
-|4,39,27,15,1616263660,"~/with_file.yaml"
+-'  10  41  ~/reg.yaml
+|4,39,10,41,1616608881,"~/reg.yaml"
+-'  10  41  ~/reg.yaml
+|4,39,10,41,1616608881,"~/reg.yaml"
+-'  10  41  ~/reg.yaml
+|4,39,10,41,1616608881,"~/reg.yaml"
+-'  10  41  ~/reg.yaml
+|4,39,10,41,1616608881,"~/reg.yaml"
+-'  10  41  ~/reg.yaml
+|4,39,10,41,1616608881,"~/reg.yaml"
+-'  10  41  ~/reg.yaml
+|4,39,10,41,1616608881,"~/reg.yaml"
 
 # History of marks within files (newest to oldest):
+
+> ~/main.yaml
+	*	1616825094	0
+	"	9	29
+	^	9	30
+	.	9	29
+	+	9	29
+
+> ~/task2.yaml
+	*	1616825058	0
+	"	11	39
+	^	11	40
+	.	11	39
+	+	11	39
+
+> ~/task1.yaml
+	*	1616825024	0
+	"	19	10
+	^	19	11
+	.	19	10
+	+	19	10
 
 > ~/cond.yaml
 	*	1616696273	0

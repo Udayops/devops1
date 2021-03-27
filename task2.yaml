@@ -1,0 +1,11 @@
+---
+- name: Installation of Apache on Centos
+  yum:
+   name: httpd
+   state: latest
+  when: ansible_distribution == "CentOS"
+- name: Insallation of Apache on Ubuntu
+  apt:
+    name: apache2
+    state: latest
+  when: ansible_distribution == "Ubuntu"

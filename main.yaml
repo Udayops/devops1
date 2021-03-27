@@ -1,0 +1,9 @@
+---
+- name: Demo include and import tasks
+  hosts: centos1,ubuntu1
+  become: yes
+  tasks:
+    - name: Pre-requisite installation
+      include_tasks: task1.yaml
+    - name: Installation of Apache 
+      import_tasks: task2.yaml
